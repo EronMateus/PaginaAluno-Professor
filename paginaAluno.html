@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleAluno.css">
+    <link rel="stylesheet" media="(min-width: 1024px)" href="desktop.css" />
+    <title>Aluno</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <img class="iconMenu" src="imagens/barra-de-menu.png" alt="Logo">
+            <h1 class="nomeAluno">Hamilton Gomes</h1> <!-- Nome do aluno que vai ser puxado pelo JS -->
+            <img class="iconPerfil" src="imagens/perfil_exemplo.png" alt="Foto do aluno">
+            <!-- Foto do aluno que vai ser puxado pelo JS -->
+        </nav>
+        <div class="containerBlocos">
+            <div class="mediaDesktop1">
+                <div class="primeiroBloco">
+                    <h1 class="titulo">Informações</h1>
+                    <div class="dadosInformaçoes">
+                        <p>Turma: Programador Web</p>
+                        <p>Carga horária total: 240 horas</p>
+                        <p>Docente: Vanessa</p>
+                    </div>
+                </div>
+                <div class="segundoBloco">
+                    <h1 class="titulo">Gráficos</h1>
+                    <div class="selecionarGraficos">
+                        <label for="semanal">
+                            <input type="radio" name="selecione" id="semanal">Gráfico semanal</label>
+                        <label for="mensal">
+                            <input type="radio" name="selecione" id="mensal">Gráfico mensal</label>
+                    </div>
+                </div>
+            </div>
+            <div class="mediaDesktop2">
+            <div class="terceiroBloco">
+                    <h1 class="titulo">Agenda</h1>
+                    <div class="agendaDias">
+                        <button class="buttonDias">
+                            < </button>
+                                <h2>Segunda-feira</h2>
+                                <button class="buttonDias">></button>
+                    </div>
+                    <div class="materias">
+                        <table>
+                            <tr>
+                                <td>08-09h</td>
+                                <td>Matemática</td>
+                            </tr>
+                            <tr>
+                                <td>09-10h</td>
+                                <td>Geografia</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="quartoBloco">
+                    <h1 class="titulo">QR CODE</h1>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>

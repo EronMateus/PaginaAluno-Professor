@@ -1,0 +1,114 @@
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #E2E6F2;
+    width: 100%;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+    margin: 2% 1% 1% 2%;
+    background-color: #FC6390;
+    width: 96%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 2.5em;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+p {
+    font-size: 16px;
+}
+
+.titulo {
+    margin: 3% 0% 0% 6%;
+    color: #4749A2;
+}
+
+.nomeAluno {
+    color: rgb(255, 238, 238);
+    text-shadow: black 2.3px 2.3px 2.3px;
+}
+
+.iconPerfil {
+    width: 15%;
+    height: 10%;
+    margin: 3% 3% 3% 0%;
+}
+
+.iconMenu {
+    margin: 3% 0% 3% 3%;
+    width: 10%;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.containerBlocos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3%;
+
+    width: 100%;
+}
+
+.agendaDias,
+.selecionarGraficos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%
+}
+
+.materias,
+.dadosInformaçoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.selecionarGraficos {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 5%;
+}
+
+table,
+td {
+    border: 0.5px solid;
+}
+
+.primeiroBloco,
+.segundoBloco,
+.terceiroBloco,
+.quartoBloco {
+    border-radius: 2.5em;
+    width: 100%;
+    box-shadow: 0px 0.5px 0px;
+    background-color: white;
+    padding: 2% 0 4% 0;
+    margin-top: 4%;
+}
+
+.mediaDesktop1, .mediaDesktop2 {
+    margin: 0 auto;;
+    width: 90%;
+}
